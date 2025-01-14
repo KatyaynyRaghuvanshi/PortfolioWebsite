@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio: Katyayny Raghuvanshi</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/kat_photo-2.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/kat_photo3.png" alt="Katyayny Raghuvanshi" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Katyayny Raghuvanshi">Katyayny <br>Raghuvanshi</h1>
+          <p class="title">Associate Software Engineer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:katyayny@gmail.com" class="contact-link">katyayny@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+91-6394554136" class="contact-link">+91-6394554136</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2001-02-01">February 01, 2001</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Noida, Uttar Pradesh, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/katyayny-raghuvanshi" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/KatyaynyRaghuvanshi" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/_karaaaaaaaaaaa_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <h4 class="about-subtitle">Hi, I'm Katyayny Raghuvanshi!</h4><br>
+        <p class="about-description">
+          I'm a passionate and results-driven Software Engineer with a strong foundation in modern technologies and a
+          knack for solving complex problems. With 2 years of professional experience, I have worked extensively on
+          a variety of projects, from developing prototypes using React, Angular, and Vue.js to creating robust tools
+          with .NET Core, ASP.NET MVC, and REST APIs.
+        </p>
+        <p class="about-description">
+          I take pride in my ability to deliver efficient solutions, having resolved over 1,000 customer issues that
+          improved product reliability and user satisfaction. My experience also includes mentoring junior developers,
+          building dynamic web applications, and leveraging cloud platforms like Azure and AWS to streamline
+          operations.
+        </p>
+        <p class="about-description">
+          Beyond work, I hold a Master’s degree in Software Engineering, where I graduated as a Gold Medalist, and a
+          Bachelor's degree in Computer Science, both of which have shaped my analytical and technical skills.
+        </p>
+        <p class="about-description">
+          When I'm not coding, I enjoy dancing, doodling and watching light-hearted standups.
+        </p>
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design & Development</h4>
+                <p class="service-item-text">
+                  Creating modern, responsive, and user-friendly web designs with robust development using React,
+                  Angular, and Next.js.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Software development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+                <p class="service-item-text">
+                  Building efficient and scalable applications using .NET Core, ASP.NET MVC, and WinForms to solve
+                  real-world problems.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Nandini Garg" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nandini Garg</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Katyayany is not only highly skilled in .NET<br>
+                    technologies, but also approaches <br>every project with a great deal of<br> professionalism.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Akshay Rajput" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Akshay Rajput</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As Katyayny's mentor at<br> GrapeCity, I wholeheartedly<br> recommend Katyayny for roles<br> where
+                    dedication, professionalism,<br> and a results-driven approach<br> are valued. She has the<br>
+                    qualities to excel in any<br> path she chooses and will<br> undoubtedly be a valuable<br> addition
+                    to her next team.<br>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Sample" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Sample</h4>
+              <time datetime="2025-01-1">1 January, 2025</time>
+              <div data-modal-text>
+                <p>Sample testimonial.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Companies worked for</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="https://developer.mescius.com/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/grapecity.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://www.exposysdata.com/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/exposys.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">
+            Resume
+          </h2>
+          <a href="https://drive.google.com/drive/folders/1l7A937bF9ibjDSdTJoROsTOu4X4Li5lU" target="_blank"
+            class="resume-preview-link">
+            <ion-icon name="eye-outline" style="font-size: 20px; margin-right: 5px;"></ion-icon> Preview Katyayny's
+            Resume
+          </a>
+
+        </header>
+        <br>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Associate Software Engineer, GrapeCity India Pvt. Ltd.</h4>
+              <span>January 2023 — Current</span>
+              <p class="timeline-text">
+                Resolved over 1,000 customer issues using technologies like C#, VB.NET, .NET Core, and front-end
+                frameworks.
+                Improved team productivity by mentoring junior developers and reduced manual efforts by 80% by
+                developing innovative tools.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer Intern, GrapeCity India Pvt. Ltd.</h4>
+              <span>August 2022 — September 2022</span>
+              <p class="timeline-text">Developed .NET WinForms tools including Notepad and a Scientific Calculator,
+                optimizing code for better user experience.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Summer Intern, University of Delhi</h4>
+              <span>2021</span>
+              <p class="timeline-text">Built a Text Mining tool leveraging tf-idf calculations for advanced data
+                analysis.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Developer Intern, Exposys Data Labs</h4>
+              <span>2020</span>
+              <p class="timeline-text">Designed a dynamic and responsive website to enhance user engagement using HTML,
+                CSS, and JavaScript.</p>
+            </li>
+
+          </ol>
+
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">MCA (Software Engineering), USICT, GGSIPU, New Delhi</h4>
+              <span>2021 — 2023</span>
+              <p class="timeline-text">Achieved 9.2 CGPA and received a Gold Medal for academic excellence.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BSc. (Hons) Computer Science, SRCASW, University of Delhi</h4>
+              <span>2018 — 2021</span>
+              <p class="timeline-text">Graduated with a 9.108 CGPA and developed expertise in core computer science
+                concepts.</p>
+            </li>
+          </ol>
+
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Languages:</h5>
+              </div>
+              <p class="skills-subtext">C#, VB.NET, JavaScript, C++</p>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frameworks & UI Libraries:</h5>
+              </div>
+              <p class="skills-subtext">.NET Core, ASP.NET MVC, React, Angular, Vue.js, Next.js, WPF, WinForms</p>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tools & Platforms:</h5>
+              </div>
+              <p class="skills-subtext">Visual Studio, JIRA, Postman, Git, CI/CD Pipelines, Azure, AWS, Docker</p>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Database Management:</h5>
+              </div>
+              <p class="skills-subtext">SQL, MySQL, SSMS, Entity Framework</p>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- <ul class="project-list">
+            
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul> -->
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <!-- <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy"> -->
+                </figure>
+
+                <!-- <h3 class="project-title">Finance</h3> -->
+
+                <!-- <p class="project-category">Web development</p> -->
+
+                <!-- Coming soon label -->
+                <div class="coming-soon-label">Coming Soon</div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14022.991580159097!2d77.31295327102706!3d28.570056389468513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce55da58e7e71%3A0x4f0514d52ae4eec7!2sNoida%20Sector%2062%2C%20Uttar%20Pradesh%2C%20India!5e0!3m2!1sen!2sin!4v1647608789441!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form id="contact-form" class="form">
+            <div class="input-wrapper">
+              <input type="text" name="name" id="name" class="form-input" placeholder="Full name" required>
+              <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required>
+            </div>
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required></textarea>
+            <button class="form-btn" type="button" id="send-message">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@latest/dist/email.min.js"></script>
+
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
